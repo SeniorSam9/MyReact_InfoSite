@@ -2,17 +2,13 @@
 // Each component must have only one parent
 // Each function is written inP Pascal format (First Letter Is Captial)
 import React from "react";
-import Header from "./Header";
-import Content from "./Content";
-import Footer from "./Footer";
-function App() {
+import Navbar from "./Components/Navbar";
+import Main from "./Components/Main";
+export default function App() {
   return (
     <div className="content">
-      <Header />
-      <Content />
-      <Footer />
+      <Navbar />
+      <Main />
     </div>
   );
 }
-
-export default App;

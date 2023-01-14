@@ -6,8 +6,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+h1 {
+  font-family: "Inter", sans-serif;
+}
 .content {
   min-height: 100vh;
+  background-color: #282d35;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -39,4 +43,44 @@ footer {
   top: 100%;
   display: flex;
   justify-content: center;
+}
+.main,
+.nav-p1 {
+  font-family: "Inter", sans-serif;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  background-color: #282d35;
+}
+
+.main > * {
+  color: #fff;
+}
+.main li {
+  margin-bottom: 2rem;
+}
+.main li::marker {
+  font-size: 1.5rem;
+  color: #0081c9;
+}
+.nav-p1 {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+}
+.nav-p1 > h4 {
+  position: absolute;
+  right: 4rem;
+  font-weight: 600;
+}
+.nav-p1 > h4 {
+  color: #deebf8;
+}
+.nav-p1 > h3 {
+  margin-left: 1.5rem;
+  color: #00d8ff;
+  font-weight: 700;
 }
